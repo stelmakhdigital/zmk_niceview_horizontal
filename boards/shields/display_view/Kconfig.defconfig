@@ -3,6 +3,16 @@
 
 if SHIELD_DISPLAY_VIEW_HORIZONTAL
 
+config ZMK_DISPLAY
+    default y
+    
+if ZMK_DISPLAY
+
+config SSD1306
+    default y
+
+endif ## ZMK_DISPLAY
+
 choice ZMK_DISPLAY_STATUS_SCREEN
     default ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
 endchoice
