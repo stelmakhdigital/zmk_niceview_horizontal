@@ -1,4 +1,4 @@
-name: "display!view"
+name: "display!view!horizontal"
 build:
   settings:
     board_root: .
