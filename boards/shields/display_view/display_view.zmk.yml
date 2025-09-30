@@ -1,0 +1,10 @@
+file_format: "1"
+id: display_view
+name: display!view
+type: shield
+url: https://github.com/stelmakhdigital/zmk_niceview_horizontal
+requires: [nice_view_header]
+features:
+  - display
+siblings:
+  - display_view_horizontal
